@@ -23,6 +23,7 @@ body {
     background: darkblue;
     overflow-x: hidden;
     padding: 8px 0;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.6);
   }
 
 .sidenav a {
