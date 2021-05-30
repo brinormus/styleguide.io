@@ -1,0 +1,117 @@
+* {
+    font-family: Helvetica, Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: lightblue;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+/* Sidebar nav section */
+.sidenav {
+    width: 150px;
+    height: 310px;
+    position: fixed;
+    z-index: 1;
+    top: 20px;
+    left: 10px;
+    background: darkblue;
+    overflow-x: hidden;
+    padding: 8px 0;
+  }
+
+.sidenav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: lightgreen;
+  }
+
+  .main {
+    margin-left: 160px; /* Same width as the sidebar + left position in px */
+    padding: 0px 10px;
+  }
+  
+.logo {
+    margin-left: 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+/* Colors */
+.colors{
+    display: block;
+}
+
+.color-box1 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px; 
+   background-color: #2d5dcc;
+   color: white;
+}
+
+.color-box2 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color: #d957d9;
+}
+
+.color-box3 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color:#4fe0b0;
+}
+
+.color-box4 {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+    background-color: #efd9ca;
+}
+
+/* Fonts */
+.fonts {
+    line-height: 28px;
+}
+
+.sigmar-one {
+    font-family: Sigmar One, sans-serif;
+}
+
+.oswald {
+    font-family: Oswald, sans-serif;
+}
+
+.pattya {
+    font-family: Pattya, sans-serif;
+}
+
+.fonts h3 {
+    text-decoration: underline;
+}
+
+/* Text Styles */
